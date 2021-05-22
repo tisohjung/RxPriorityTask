@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		9F21E3052657DFA5007D02ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F21E3042657DFA5007D02ED /* Assets.xcassets */; };
 		9F21E3082657DFA5007D02ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F21E3062657DFA5007D02ED /* LaunchScreen.storyboard */; };
 		9F21E3112657DFC7007D02ED /* VCTaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21E3102657DFC7007D02ED /* VCTaskList.swift */; };
+		9F21E3132659701D007D02ED /* VCAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21E3122659701D007D02ED /* VCAddTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9F21E3072657DFA5007D02ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F21E3092657DFA5007D02ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F21E3102657DFC7007D02ED /* VCTaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTaskList.swift; sourceTree = "<group>"; };
+		9F21E3122659701D007D02ED /* VCAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAddTask.swift; sourceTree = "<group>"; };
 		EBCBAC46F91255FC48C96F0A /* Pods-RxPriorityTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPriorityTask.debug.xcconfig"; path = "Target Support Files/Pods-RxPriorityTask/Pods-RxPriorityTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +50,6 @@
 				EBCBAC46F91255FC48C96F0A /* Pods-RxPriorityTask.debug.xcconfig */,
 				8DA5E98A1E1961046C1E09AB /* Pods-RxPriorityTask.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9F21E3102657DFC7007D02ED /* VCTaskList.swift */,
+				9F21E3122659701D007D02ED /* VCAddTask.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -217,6 +219,7 @@
 				9F21E2FC2657DFA1007D02ED /* AppDelegate.swift in Sources */,
 				9F21E2FE2657DFA1007D02ED /* SceneDelegate.swift in Sources */,
 				9F21E3112657DFC7007D02ED /* VCTaskList.swift in Sources */,
+				9F21E3132659701D007D02ED /* VCAddTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

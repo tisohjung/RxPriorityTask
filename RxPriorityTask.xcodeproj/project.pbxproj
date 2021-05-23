@@ -15,6 +15,7 @@
 		9F21E3082657DFA5007D02ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F21E3062657DFA5007D02ED /* LaunchScreen.storyboard */; };
 		9F21E3112657DFC7007D02ED /* VCTaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21E3102657DFC7007D02ED /* VCTaskList.swift */; };
 		9F21E3132659701D007D02ED /* VCAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21E3122659701D007D02ED /* VCAddTask.swift */; };
+		9F21E316265A370A007D02ED /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F21E315265A3709007D02ED /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		9F21E3092657DFA5007D02ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F21E3102657DFC7007D02ED /* VCTaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTaskList.swift; sourceTree = "<group>"; };
 		9F21E3122659701D007D02ED /* VCAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCAddTask.swift; sourceTree = "<group>"; };
+		9F21E315265A3709007D02ED /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		EBCBAC46F91255FC48C96F0A /* Pods-RxPriorityTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxPriorityTask.debug.xcconfig"; path = "Target Support Files/Pods-RxPriorityTask/Pods-RxPriorityTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 		9F21E2FA2657DFA1007D02ED /* RxPriorityTask */ = {
 			isa = PBXGroup;
 			children = (
+				9F21E314265A36F9007D02ED /* Model */,
 				9F21E30F2657DFBA007D02ED /* Controllers */,
 				9F21E2FB2657DFA1007D02ED /* AppDelegate.swift */,
 				9F21E2FD2657DFA1007D02ED /* SceneDelegate.swift */,
@@ -100,6 +103,14 @@
 				9F21E3122659701D007D02ED /* VCAddTask.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F21E314265A36F9007D02ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F21E315265A3709007D02ED /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 			files = (
 				9F21E2FC2657DFA1007D02ED /* AppDelegate.swift in Sources */,
 				9F21E2FE2657DFA1007D02ED /* SceneDelegate.swift in Sources */,
+				9F21E316265A370A007D02ED /* Task.swift in Sources */,
 				9F21E3112657DFC7007D02ED /* VCTaskList.swift in Sources */,
 				9F21E3132659701D007D02ED /* VCAddTask.swift in Sources */,
 			);
